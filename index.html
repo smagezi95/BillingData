@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ABC Consulting Firm</title>
+    
+    <!-- CSS Styling -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Navbar Styles */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #0A3D62;
+            padding: 1rem 2rem;
+            color: white;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-image: url('consulting-bg.jpg'); /* image */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero button {
+            padding: 1rem 2rem;
+            background-color: #FFC312;
+            color: #333;
+            border: none;
+            cursor: pointer;
+            font-size: 1.2rem;
+        }
+
+        .hero button:hover {
+            background-color: #FFA502;
+        }
+
+        /* About Section */
+        .about {
+            padding: 60px 20px;
+            background-color: white;
+            text-align: center;
+        }
+
+        .about h2 {
+            font-size: 2.5rem;
+            color: #0A3D62;
+            margin-bottom: 1rem;
+        }
+
+        .about p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        /* Services Section */
+        .services {
+            padding: 60px 20px;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+
+        .services h2 {
+            font-size: 2.5rem;
+            color: #0A3D62;
+            margin-bottom: 1rem;
+        }
+
+        .services .service {
+            display: inline-block;
+            width: 30%;
+            padding: 20px;
+            background-color: white;
+            margin: 1rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .services .service h3 {
+            font-size: 1.5rem;
+            color: #0A3D62;
+        }
+
+        .services .service p {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="logo">ABC Consulting</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Your Trusted Consulting Partner</h1>
+        <p>We offer tailored solutions to help businesses thrive in a competitive environment.</p>
+        <button>Contact Us</button>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <h2>About ABC Consulting</h2>
+        <p>ABC Consulting Firm provides expert business solutions for companies looking to improve efficiency, grow revenue, and navigate the complexities of today’s business landscape. We focus on delivering strategic insights, operational improvements, and tailored solutions that help our clients achieve success.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <h2>Our Services</h2>
+        
+        <div class="service">
+            <h3>Business Strategy</h3>
+            <p>We develop innovative strategies that drive growth and maximize profitability for businesses in various industries.</p>
+        </div>
+        
+        <div class="service">
+            <h3>Financial Consulting</h3>
+            <p>Our financial experts help optimize financial processes, risk management, and provide solutions to enhance performance.</p>
+        </div>
+        
+        <div class="service">
+            <h3>Technology Solutions</h3>
+            <p>We offer cutting-edge technology consulting to streamline your operations and position your business for digital success.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 ABC Consulting Firm. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
